@@ -23,7 +23,7 @@ button.pack(pady=20)
 output_table = Label(root, font="lucida 22 bold")
 output_table.pack()
 statusvar = StringVar()
-statusvar.set("Develop by- Kunwar Pratap")
+statusvar.set("Developed by- Kunwar Pratap")
 sbar = Label(root, textvariable=statusvar, relief=SUNKEN, font="lucida 11 bold", bg="sky blue", padx=10)
 sbar.pack(side=BOTTOM, fill=X)
 
